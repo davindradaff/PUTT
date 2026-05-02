@@ -1,0 +1,35 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="facialGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFE0EC;stop-opacity:1;"/>
+      <stop offset="100%" style="stop-color:#FCE4EC;stop-opacity:1;"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#facialGrad)"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="60" cy="60" r="40" fill="#E91E63" opacity="0.1"/>
+  <circle cx="340" cy="250" r="50" fill="#E91E63" opacity="0.12"/>
+  
+  <!-- Treatment illustration -->
+  <g transform="translate(200, 140)">
+    <!-- Face -->
+    <ellipse cx="0" cy="0" rx="35" ry="45" fill="#FDBCB4" stroke="#E91E63" stroke-width="1.5"/>
+    
+    <!-- Eyes -->
+    <circle cx="-12" cy="-15" r="4" fill="#333"/>
+    <circle cx="12" cy="-15" r="4" fill="#333"/>
+    
+    <!-- Relaxed expression -->
+    <path d="M -15 5 Q 0 15 15 5" stroke="#E91E63" stroke-width="2" fill="none"/>
+    
+    <!-- Treatment glow -->
+    <circle cx="0" cy="0" r="50" fill="none" stroke="#E91E63" stroke-width="1" stroke-dasharray="5,5" opacity="0.5"/>
+    <circle cx="0" cy="0" r="55" fill="none" stroke="#FF69B4" stroke-width="1" stroke-dasharray="5,5" opacity="0.3"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="200" y="270" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#E91E63" text-anchor="middle">
+    Perawatan Wajah
+  </text>
+</svg>
